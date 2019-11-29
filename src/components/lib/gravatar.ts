@@ -57,7 +57,7 @@ export const getAvatar = async (email: string): Promise<Avatar> => {
     return {
       status: response.status,
       data: null,
-      error: "This avatar doesn't exist"
+      error: `${email} doesn't have any avatar !`
     }
   }
   } catch(e) {
@@ -65,7 +65,7 @@ export const getAvatar = async (email: string): Promise<Avatar> => {
     return {
       status: 404,
       data: null,
-      error: "This avatar doesn't exist"
+      error: `${email} doesn't have any avatar !`
     };
   }
   

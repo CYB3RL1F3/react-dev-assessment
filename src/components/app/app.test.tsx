@@ -145,7 +145,7 @@ describe("<App />", () => {
         const errorHandler = wrapper.find(Page).find(ErrorHandler);
         expect(errorHandler).toHaveLength(1);
         expect(errorHandler.props()).toEqual({
-          children: "This avatar doesn't exist"
+          children: "fail@gmail.com doesn't have any avatar !"
         });
       });
     });
