@@ -28,7 +28,7 @@ jest.mock("../lib/gravatar", () => ({
             src: "",
             alt: ""
           },
-          error: "This avatar doesn't exist"
+          error: `${email} doesn't have any avatar !`
         });
       }
     });
