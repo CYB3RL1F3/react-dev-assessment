@@ -15,7 +15,7 @@ export const Header = styled.header`
   display: flex;
   margin: 0;
   flex-direction: column;
-  font-family: "Circular Std Bold";
+  font-family: "Lato";
 `;
 
 export const Handler = styled.article`
@@ -50,7 +50,7 @@ export const Title = styled.h3`
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Circular Std Bold";
+  font-family: "Lato";
   color: white;
   margin: 2rem auto;
 `;
