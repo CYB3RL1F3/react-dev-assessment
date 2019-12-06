@@ -68,6 +68,7 @@ export const Image = styled.img`
   width: 15rem;
   height: 15rem;
   margin: 0;
+  border-radius: 50%;
   @media(max-width: ${maxWidth}px) {
     width: 10rem;
     height: 10rem;
@@ -88,6 +89,15 @@ export const ErrorHandler = styled.p`
   top: 0;
   left: 0;
   font-family: Arial, Helvetica, sans-serif;
+  animation: show 0.2s;
+  @keyframes show{
+    0% {
+    transform: translateY(-3rem);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+  }
 `
 
 export const SuccessHandler = styled.p`
@@ -102,6 +112,15 @@ export const SuccessHandler = styled.p`
   top: 0;
   left: 0;
   font-family: Arial, Helvetica, sans-serif;
+  animation: show 0.2s;
+  @keyframes show{
+    0% {
+    transform: translateY(-3rem);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+  }
 `;
 
 export const Input = styled.input.attrs({
