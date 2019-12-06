@@ -40,7 +40,7 @@ const App = () => {
   return (
     <Page>
       <Header>
-        <Title>Gravatar checker</Title>
+        <Title>Gravatar viewer</Title>
       </Header>
       <Handler>
         

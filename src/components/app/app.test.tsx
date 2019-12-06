@@ -66,7 +66,7 @@ describe("<App />", () => {
     const title = wrapper.find(Page).find(Header).find(Title);
     expect(title).toHaveLength(1);
     expect(title.props()).toEqual({
-      children: "Gravatar checker"
+      children: "Gravatar viewer"
     });
   });
   it("should render avatar with placeholder", () => {

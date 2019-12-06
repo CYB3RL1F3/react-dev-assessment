@@ -131,7 +131,7 @@ export const Submit = styled.input.attrs({
   })`
     width: 17.3rem;
     height: 2rem;
-    line-height: 2rem;
+    line-height: 1.9rem;
     font-size: 14px;
     border: none;
     border-radius: 3px;
