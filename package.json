@@ -40,7 +40,7 @@
     "image-webpack-loader": "^6.0.0",
     "is-retina": "^1.0.3",
     "jest": "^24.9.0",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "md5": "^2.2.1",
     "query-string": "^6.9.0",
     "react": "^16.9.0",
